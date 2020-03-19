@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18851" started-at="2020-03-19T18:10:06Z" finished-at="2020-03-19T18:10:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18851" started-at="2020-03-19T18:10:06Z" finished-at="2020-03-19T18:10:25Z">
+      <class name="com.slack.test.ChannelTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.slack.test.ChannelTest@5b275dab]" name="init" is-config="true" duration-ms="252" started-at="2020-03-19T18:10:06Z" finished-at="2020-03-19T18:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createChannel()[pri:0, instance:com.slack.test.ChannelTest@5b275dab]" name="createChannel" duration-ms="16614" started-at="2020-03-19T18:10:06Z" finished-at="2020-03-19T18:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChannel -->
+        <test-method status="PASS" signature="joinChannel()[pri:1, instance:com.slack.test.ChannelTest@5b275dab]" name="joinChannel" duration-ms="605" started-at="2020-03-19T18:10:23Z" finished-at="2020-03-19T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinChannel -->
+        <test-method status="PASS" signature="renameChannel()[pri:2, instance:com.slack.test.ChannelTest@5b275dab]" name="renameChannel" duration-ms="852" started-at="2020-03-19T18:10:24Z" finished-at="2020-03-19T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renameChannel -->
+        <test-method status="PASS" signature="archiveChannel()[pri:3, instance:com.slack.test.ChannelTest@5b275dab]" name="archiveChannel" duration-ms="506" started-at="2020-03-19T18:10:24Z" finished-at="2020-03-19T18:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archiveChannel -->
+      </class> <!-- com.slack.test.ChannelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
